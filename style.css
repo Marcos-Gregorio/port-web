@@ -52,9 +52,11 @@
 
 .button-style{
   width: 18vw;
-  height: 4.4vh;
+  height: 5vh;
   background-color: var(--GreenButtonColor);
   color: #eee;
+  letter-spacing: .1em;
+  border: none;
 }
 
 /* Component Header */
@@ -776,7 +778,7 @@
 
 /* Break-points */
 
-/* 1440 */
+/* Break-point 1440 */
 @media (max-width:1440px) {
   .andada-pro-title {
     font-size:24px;
@@ -795,7 +797,12 @@
   .main-port-softskill-display-card{
     max-height: 75%;
   }
-  
+  .header-port-list-contact{
+    width: 70%;
+    position: absolute;
+    top: 85%;
+  }
+
   .header-port-list-contact>li {
     width: 50%;
   }
@@ -871,4 +878,191 @@
   }
 }
 
-/* 1366px */
+/* Break-point 1264px */
+
+@media (max-width:1260px) {
+  .about-display-bottom-list {
+    grid-template-columns: repeat(2,56%);
+  }
+}
+
+/* Break-point 1024px|1200 */
+@media(min-width:1024px) and (max-width:1200px){
+  .about-display-bottom-list {
+    grid-template-columns: repeat(2,50%);
+    margin-bottom: 2%;
+
+  }
+
+  .header-port-list-contact{
+    top: 85%;
+    width: 70%;
+
+  }
+  .about-display-bottom li {
+    max-width:90%;
+  }
+  .thumbmail {  
+    bottom: 50px;
+    left: 60%;
+  }
+
+ 
+}
+/* Break-point 800px|1023 */
+@media(min-width:768px) and (max-width:1023px){
+  .header-port-list-contact{
+    width: 80vw;
+  }
+
+  .andada-pro-title {
+    font-size:24px;
+  }
+  
+  .andada-pro-subtitle {
+    font-size: 18px;
+  }
+  
+  .andada-pro-paragraph {
+    font-size: 14px;
+  }
+
+  
+  /* Header */
+
+  .main-port-softskill-display-card{
+    max-height: 75%;
+  }
+  .header-port-list-contact{
+    top: 85%;
+    width: 70%;
+
+  }
+
+  .port-text-describe button{
+    width: 20vw;
+    height: 7vh;
+    letter-spacing: .1em;
+    border: none;
+  }
+
+  .header-port-list-contact>li {
+    width: 50%;
+  }
+
+  /* About Display */
+
+  .about-display-top{
+    height: 50vh;
+  }
+  .about-display-bottom{
+    display: flex;
+    flex-direction:row;
+    
+  }
+  .about-display-bottom-list{
+    grid-template-columns: repeat(1,100%);
+    height: 30vh;
+    width: 40vw;
+
+    padding: 0;
+  }
+
+  .about-display-bottom-list li :nth-child(2){
+    width: 100vw;
+    
+  }
+
+  .about-display-bottom button{
+    position: absolute;
+    right: 10%;  
+    border: none;
+    height: 7vh;
+    letter-spacing: .1em;
+  }
+
+  /* SoftSkil */
+  .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .main-port-softskill-text,.port-gallery-text {
+    font-size: 50px;
+  }
+  /* Carousel  */
+  .carousel .list .item .content .content-text {
+
+    top: 20%;
+    left: 7%;
+  }
+
+  .carousel .list .item .content .author {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5em;
+  }
+
+  .carousel .list .item .content .title,
+  .carousel .list .item .content .topic {
+    font-size: 30px;
+  }
+
+  .carousel .list .item .content .topic {
+    color: var(--GrennFontColor);
+    width: 20vw;
+    font-size: 20px;
+  }
+
+  .carousel .list .item .content .des {
+    width: 45vw;
+    text-align: justify;
+    font-family: var(--FontText);
+    font-size: 10px;
+  }
+  
+  .carousel .list .item .content .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 48px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+
+  .thumbmail {  
+    bottom: 50px;
+    left: 53%;
+  }
+
+  .thumbmail .item {
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .thumbmail .item .content .title,
+  .thumbmail .item .content .des {
+   font-size: 14px;
+  }
+  .arrows {
+    
+    top: 85%;
+    right: 58%;
+    width: 300px;
+   
+  }
+  
+  .arrows button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+   
+  }
+  
+
+ 
+}
+
