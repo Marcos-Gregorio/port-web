@@ -909,7 +909,7 @@
 
  
 }
-/* Break-point 800px|1023 */
+/* Break-point 768px|1023 */
 @media(min-width:768px) and (max-width:1023px){
   .header-port-list-contact{
     width: 80vw;
@@ -951,9 +951,11 @@
   }
 
   /* About Display */
-
+  .main-port-about-image{
+    height: 90vh;
+  }
   .about-display-top{
-    height: 50vh;
+    height: 55vh;
   }
   .about-display-bottom{
     display: flex;
@@ -1066,3 +1068,683 @@
  
 }
 
+
+/* BreakPoints:500/768px */
+@media(min-width:500px) and (max-width:767px){
+  
+
+  .andada-pro-title {
+    font-size:24px;
+  }
+ 
+  .andada-pro-subtitle {
+    font-size: 18px;
+  }
+  
+  .andada-pro-paragraph {
+    font-size: 14px;
+  }
+
+  
+  /* Header */
+
+  .main-port-softskill-display-card{
+    max-height: 75%;
+    z-index: 100;
+  }
+  .header-port-list-contact{
+    top: 85%;
+    width: 70%;
+    z-index: 100;
+
+  }
+
+  .port-text-describe button{
+    width: 20vw;
+    height: 7vh;
+    letter-spacing: .1em;
+    border: none;
+  } 
+  .header-port-list-contact{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+
+    top: 60%;
+  }
+
+  .header-port-list-contact>li {
+    width: 50%;
+    
+  }
+
+  .header-port-list-contact>li:nth-child(1) {
+    border-right: none;
+    border-bottom: solid 1px white;
+    padding-left: 2%;
+  }
+
+  .header-port-list-contact>li:nth-child(2) {
+    margin-top: 1%;
+    border-right: none;
+    border-bottom: solid 1px white;
+  }
+  
+  .header-port-list-contact>li:nth-child(3) {
+    margin-top: 1%;
+    border-bottom: solid 1px white;
+  }
+  .header-port-img{
+    position: relative;
+    right: 10%;
+    background-size: cover;
+    background-position: -30vh;
+    
+  }
+
+  /* About Display */
+
+  .main-port-about{
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
+  .main-port-about-display{
+    width: 80%;
+    margin: 10% auto;
+  }
+    .main-port-about-image{
+      left: 0;
+
+    width: 85%;
+    height: 95vh;
+    position: absolute;      
+  }
+  .about-display-top{
+    height: 68vh;
+    width: 90%;
+    z-index: 100;
+    position: relative;
+   }
+   .about-display-top h1{
+    width: 100%;
+   }
+   
+   .about-display-bottom{
+
+    display: flex;
+    flex-direction:row;
+    
+  }
+  .about-display-bottom-list{
+    position: relative;
+    grid-template-columns: repeat(1,100%);
+    height: 10vh;
+    width: 80%;
+
+
+    
+  }
+
+.about-display-bottom-list li:nth-child(1) p:nth-child(2){
+  width: 70vw;
+
+}
+
+  .about-display-bottom button{
+    position: absolute;
+    right: 12%;
+    top: 190%;  
+    border: none;
+    width: 24vw;
+    height: 8vh;
+    letter-spacing: .1em;
+  }
+
+  /* SoftSkil */
+
+.main-port-softskill{
+  height: 230vh;
+}
+.main-port-softskill-display-card{
+  grid-template-columns: repeat(1,100%);
+  grid-template-rows: repeat(4,25%);
+}
+
+  .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .main-port-softskill-text,.port-gallery-text {
+    font-size: 50px;
+  }
+  /* Carousel  */
+  .carousel .list .item .content .content-text {
+
+    top: 20%;
+    left: 7%;
+  }
+
+  .carousel .list .item .content .author {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5em;
+  }
+
+  .carousel .list .item .content .title,
+  .carousel .list .item .content .topic {
+    font-size: 30px;
+  }
+
+  .carousel .list .item .content .topic {
+    color: var(--GrennFontColor);
+    width: 20vw;
+    font-size: 20px;
+  }
+
+  .carousel .list .item .content .des {
+    width: 45vw;
+    text-align: justify;
+    font-family: var(--FontText);
+    font-size: 10px;
+  }
+  
+  .carousel .list .item .content .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 48px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+
+  .thumbmail {  
+    bottom: 50px;
+    left: 53%;
+  }
+
+  .thumbmail .item {
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .thumbmail .item .content .title,
+  .thumbmail .item .content .des {
+   font-size: 14px;
+  }
+  .arrows {
+    
+    top: 85%;
+    right: 58%;
+    width: 300px;
+   
+  }
+  
+  .arrows button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+   
+  }
+  
+
+ 
+}
+
+
+/* BreakPoints:425/500px */
+@media(min-width:425px) and (max-width:499px){
+  
+
+  .andada-pro-title {
+    font-size:24px;
+  }
+ 
+  .andada-pro-subtitle {
+    font-size: 18px;
+  }
+  
+  .andada-pro-paragraph {
+    font-size: 14px;
+  }
+
+  
+  /* Header */
+
+  .main-port-softskill-display-card{
+    max-height: 75%;
+    z-index: 100;
+  }
+  .header-port-list-contact{
+    top: 85%;
+    width: 70%;
+    z-index: 100;
+
+  }
+
+  .port-text-describe button{
+    width: 30vw;
+    
+  } 
+  .header-port-list-contact{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+
+    top: 60%;
+  }
+
+  .header-port-list-contact>li {
+    width: 65%;
+    
+  }
+
+  .header-port-list-contact>li:nth-child(1) {
+    border-right: none;
+    border-bottom: solid 1px white;
+    padding-left: 2%;
+  }
+
+  .header-port-list-contact>li:nth-child(2) {
+    margin-top: 1%;
+    border-right: none;
+    border-bottom: solid 1px white;
+  }
+  
+  .header-port-list-contact>li:nth-child(3) {
+    margin-top: 1%;
+    border-bottom: solid 1px white;
+  }
+  .header-port-img{
+    position: relative;
+    right: 10%;
+    background-size: cover;
+    background-position: -30vh;
+    
+  }
+
+  /* About Display */
+
+  .main-port-about{
+    height: 130vh;
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
+  .main-port-about-display{
+    width: 80%;
+    margin: 10% auto;
+  }
+    .main-port-about-image{
+      left: 0;
+
+    width: 85%;
+    height: 120vh;
+    position: absolute;      
+  }
+  .about-display-top{
+    height: 90vh;
+    width: 90%;
+    z-index: 100;
+    position: relative;
+   }
+   .about-display-top h1{
+    width: 100%;
+   }
+   
+   .about-display-bottom{
+
+    display: flex;
+    flex-direction:row;
+    
+  }
+  .about-display-bottom-list{
+    position: relative;
+    grid-template-columns: repeat(1,100%);
+    height: 10vh;
+    width: 80%;
+
+
+    
+  }
+
+.about-display-bottom-list li:nth-child(1) p:nth-child(2){
+  width: 70vw;
+
+}
+
+  .about-display-bottom button{
+    position: absolute;
+    right: 18%;
+    top: 200%;  
+    border: none;
+    width: 20vw;
+    height: 8vh;
+    letter-spacing: .1em;
+  }
+
+  /* SoftSkil */
+
+.main-port-softskill{
+  height: 230vh;
+}
+.main-port-softskill-display-card{
+  grid-template-columns: repeat(1,100%);
+  grid-template-rows: repeat(4,28%);
+}
+
+  .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .main-port-softskill-text,.port-gallery-text {
+    font-size: 50px;
+  }
+  /* Carousel  */
+  .carousel .list .item .content .content-text {
+
+    top: 20%;
+    left: 7%;
+  }
+
+  .carousel .list .item .content .author {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5em;
+  }
+
+  .carousel .list .item .content .title,
+  .carousel .list .item .content .topic {
+    font-size: 30px;
+  }
+
+  .carousel .list .item .content .topic {
+    color: var(--GrennFontColor);
+    width: 20vw;
+    font-size: 20px;
+  }
+
+  .carousel .list .item .content .des {
+    width: 45vw;
+    text-align: justify;
+    font-family: var(--FontText);
+    font-size: 10px;
+  }
+  
+  .carousel .list .item .content .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 92px);
+    grid-template-rows: 38px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+
+  .thumbmail {  
+    bottom: 50px;
+    left: 53%;
+  }
+
+  .thumbmail .item {
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .thumbmail .item .content .title,
+  .thumbmail .item .content .des {
+   font-size: 14px;
+  }
+  .arrows {
+    
+    top: 85%;
+    right: 58%;
+    width: 300px;
+   
+  }
+  
+  .arrows button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+   
+  }
+  
+
+ 
+}
+
+/* BreakPoints:375/425px */
+@media(min-width:375px) and (max-width:424px){
+  
+
+  .andada-pro-title {
+    font-size:24px;
+  }
+ 
+  .andada-pro-subtitle {
+    font-size: 18px;
+  }
+  
+  .andada-pro-paragraph {
+    font-size: 14px;
+  }
+
+  
+  /* Header */
+
+  .main-port-softskill-display-card{
+    max-height: 75%;
+    z-index: 100;
+  }
+  .header-port-list-contact{
+    top: 85%;
+    width: 70%;
+    z-index: 100;
+
+  }
+  .port-text-describe{
+    width: 60vw;
+    
+  }
+  .port-text-describe button{
+    width: 30vw;
+    
+  } 
+  .header-port-list-contact{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+
+    top: 60%;
+  }
+
+  .header-port-list-contact>li {
+    width: 75%;
+    
+  }
+
+  .header-port-list-contact>li:nth-child(1) {
+    border-right: none;
+    border-bottom: solid 1px white;
+    padding-left: 2%;
+  }
+
+  .header-port-list-contact>li:nth-child(2) {
+    margin-top: 1%;
+    border-right: none;
+    border-bottom: solid 1px white;
+  }
+  
+  .header-port-list-contact>li:nth-child(3) {
+    margin-top: 1%;
+    border-bottom: solid 1px white;
+  }
+  .header-port-img{
+    position: relative;
+  
+    background-size: cover;
+    background-position: -30vh;
+    
+  }
+
+  /* About Display */
+
+  .main-port-about{
+    height: 150vh;
+    width: 100vw;
+    margin: none;
+    padding: none;
+  }
+  .main-port-about-display{
+    width: 80%;
+    margin: 10% auto;
+  }
+    .main-port-about-image{
+      left: 0;
+
+    width: 85%;
+    height: 140vh;
+    position: absolute;      
+  }
+  .about-display-top{
+    height: 105vh;
+    width: 90%;
+    z-index: 100;
+    position: relative;
+   }
+   .about-display-top h1{
+    width: 100%;
+   }
+   
+   .about-display-bottom{
+
+    display: flex;
+    flex-direction:row;
+    
+  }
+  .about-display-bottom-list{
+    position: relative;
+    grid-template-columns: repeat(1,100%);
+    height: 10vh;
+    width: 80%;
+
+
+    
+  }
+
+.about-display-bottom-list li:nth-child(1) p:nth-child(2){
+  width: 70vw;
+
+}
+
+  .about-display-bottom button{
+    position: absolute;
+    right: 18%;
+    top: 213%;  
+    border: none;
+    width: 20vw;
+    height: 8vh;
+    letter-spacing: .1em;
+  }
+
+  /* SoftSkil */
+
+.main-port-softskill{
+  height: 230vh;
+}
+.main-port-softskill-display-card{
+  grid-template-columns: repeat(1,100%);
+  grid-template-rows: repeat(4,28%);
+}
+
+  .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
+    width: 50px;
+    height: 50px;
+    
+  }
+
+  .main-port-softskill-text,.port-gallery-text {
+    font-size: 50px;
+  }
+  /* Carousel  */
+  .carousel .list .item .content .content-text {
+
+    top: 20%;
+    left: 7%;
+  }
+
+  .carousel .list .item .content .author {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: .5em;
+  }
+
+  .carousel .list .item .content .title,
+  .carousel .list .item .content .topic {
+    font-size: 30px;
+  }
+
+  .carousel .list .item .content .topic {
+    color: var(--GrennFontColor);
+    width: 20vw;
+    font-size: 20px;
+  }
+
+  .carousel .list .item .content .des {
+    width: 45vw;
+    text-align: justify;
+    font-family: var(--FontText);
+    font-size: 10px;
+  }
+  
+  .carousel .list .item .content .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 90px);
+    grid-template-rows: 48px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+
+  .thumbmail {  
+    bottom: 50px;
+    left: 53%;
+  }
+
+  .thumbmail .item {
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  
+  .thumbmail .item .content .title,
+  .thumbmail .item .content .des {
+   font-size: 14px;
+  }
+  .arrows {
+    
+    top: 88%;
+    right: 58%;
+    width: 300px;
+   
+  }
+  
+  .arrows button {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+   
+  }
+  
+
+ 
+}
