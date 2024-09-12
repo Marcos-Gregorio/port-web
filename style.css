@@ -907,10 +907,33 @@
   .about-display-bottom-list {
     grid-template-columns: repeat(2,56%);
   }
+  .about-display-top{
+    height: 50vh;
+   }
+   .main-port-softskill{
+    height: 100vh;
+  }
+
 }
 
 /* Break-point 1024px|1200 */
 @media(min-width:1024px) and (max-width:1200px){
+  /* Header */
+  
+  .header-port-list-contact li h4 {
+    font-size: 20px;
+  }
+
+  .header-port-list-contact li p {
+    font-size: 16px;
+  }
+  /* About */
+  .main-port-about-image{
+    height: 80vh;
+  }
+ .about-display-top{
+  height: 55vh;
+ }
   .about-display-bottom-list {
     grid-template-columns: repeat(2,50%);
     margin-bottom: 2%;
@@ -925,6 +948,12 @@
   .about-display-bottom li {
     max-width:90%;
   }
+
+  /* SoftSkill */
+  .main-port-softskill{
+    height: 100vh;
+  }
+
   .thumbmail {  
     bottom: 50px;
     left: 60%;
@@ -953,9 +982,6 @@
   
   /* Header */
 
-  .main-port-softskill-display-card{
-    max-height: 75%;
-  }
   .header-port-list-contact{
     top: 85%;
     width: 70%;
@@ -974,11 +1000,14 @@
   }
 
   /* About Display */
+  .main-port-about{
+    height: 120vh;
+  }
   .main-port-about-image{
     height: 90vh;
   }
   .about-display-top{
-    height: 55vh;
+    height: 75vh;
   }
   .about-display-bottom{
     display: flex;
@@ -1012,7 +1041,12 @@
     height: 50px;
     
   }
-
+  .main-port-softskill{
+    height: 130vh;
+  }
+  .main-port-softskill-display-card{
+    grid-template-rows: repeat(2,230px);
+  }
   .main-port-softskill-text,.port-gallery-text {
     font-size: 50px;
   }
@@ -1137,7 +1171,7 @@
   }
 
   .header-port-list-contact>li {
-    width: 50%;
+    width: 60%;
     
   }
 
@@ -1169,6 +1203,7 @@
 
   .main-port-about{
     width: 100vw;
+    height: 120vh;
     margin: none;
     padding: none;
   }
@@ -1176,15 +1211,15 @@
     width: 80%;
     margin: 10% auto;
   }
-    .main-port-about-image{
+  .main-port-about-image{
       left: 0;
 
     width: 85%;
-    height: 95vh;
+    height: 110vh;
     position: absolute;      
   }
   .about-display-top{
-    height: 68vh;
+    height: 75vh;
     width: 90%;
     z-index: 100;
     position: relative;
@@ -1217,7 +1252,7 @@
   .about-display-bottom button{
     position: absolute;
     right: 12%;
-    top: 190%;  
+    top: 205%;  
     border: none;
     width: 24vw;
     height: 8vh;
@@ -1227,7 +1262,8 @@
   /* SoftSkil */
 
 .main-port-softskill{
-  height: 230vh;
+  height: 165vh;
+  max-height: 165vh;
 }
 .main-port-softskill-display-card{
   grid-template-columns: repeat(1,100%);
@@ -1338,10 +1374,7 @@
   
   /* Header */
 
-  .main-port-softskill-display-card{
-    max-height: 75%;
-    z-index: 100;
-  }
+ 
   .header-port-list-contact{
     top: 85%;
     width: 70%;
@@ -1453,11 +1486,11 @@
   /* SoftSkil */
 
 .main-port-softskill{
-  height: 230vh;
+  height: 210vh;
 }
 .main-port-softskill-display-card{
   grid-template-columns: repeat(1,100%);
-  grid-template-rows: minmax(28%,30%);
+  grid-template-rows: repeat(4,250px);
 }
 
   .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
@@ -1681,11 +1714,11 @@
   /* SoftSkil */
 
 .main-port-softskill{
-  height: 230vh;
+  height: 200vh;
 }
 .main-port-softskill-display-card{
   grid-template-columns: repeat(1,100%);
-  grid-template-rows:minmax(28%,30%)
+  grid-template-rows:repeat(4,230px)
 }
 
   .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
