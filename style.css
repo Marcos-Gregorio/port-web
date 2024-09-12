@@ -126,15 +126,15 @@
 }
 
 .header-port-list-contact>li {
-  width: 30%;
+  width: 35%;
 }
 
 .header-port-list-contact li h4 {
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .header-port-list-contact li p {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .header-port-list-contact>li:nth-child(1) {
@@ -193,7 +193,7 @@
 }
 
 .about-display-top {
-  height: 40%;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   row-gap: 5%;
@@ -295,7 +295,7 @@
 .softskill-card p {
   width: 90%;
   color: white;
-  text-align: justify;
+  
 }
 
 .softskill-card-icon-cube {
@@ -747,9 +747,6 @@
   }
 }
 
-
-
-
 /* Time Config */
 .time {
   width: 0%;
@@ -806,13 +803,31 @@
   .header-port-list-contact>li {
     width: 50%;
   }
+  .header-port-list-contact li h4 {
+    font-size: 20px;
+  }
+  
+  .header-port-list-contact li p {
+    font-size: 16px;
+  }
   /* SoftSkil */
+  .main-port-softskill-display-card{
+    
+    grid-template-rows: repeat(2,200px);
+  }
+  .softskill-card h1{
+    width: 90%
+  }
+  .softskill-card p{
+    height: 60%;
+    width: 95%;
+  }
   .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
     width: 50px;
     height: 50px;
     
   }
-
+  
   .main-port-softskill-text,.port-gallery-text {
     font-size: 50px;
   }
@@ -879,7 +894,15 @@
 }
 
 /* Break-point 1264px */
-
+@media(max-width:1280px){
+    /* Header */
+     .header-port-list-contact li{
+      width: 30%;
+     }  
+    .header-port-list-contact li h4 ,.header-port-list-contact li p {
+      font-size: 20px;
+    }
+}
 @media (max-width:1260px) {
   .about-display-bottom-list {
     grid-template-columns: repeat(2,56%);
@@ -1208,7 +1231,7 @@
 }
 .main-port-softskill-display-card{
   grid-template-columns: repeat(1,100%);
-  grid-template-rows: repeat(4,25%);
+  grid-template-rows: minmax(4,200px);
 }
 
   .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
@@ -1434,7 +1457,7 @@
 }
 .main-port-softskill-display-card{
   grid-template-columns: repeat(1,100%);
-  grid-template-rows: repeat(4,28%);
+  grid-template-rows: minmax(28%,30%);
 }
 
   .softskill-card-icon-cube,.softskill-card-icon-box,.softskill-card-icon-headset,.softskill-card-icon-html  {  
