@@ -6,6 +6,8 @@ let carouselDom = document.querySelector(".carousel");
 let listItemDom = document.querySelector(".carousel .list");
 let thumbmailDom = document.querySelector(".carousel .thumbmail");
 
+AOS.init()
+
 nextDom.addEventListener("click", () => {
   showSlider("next");
 });
